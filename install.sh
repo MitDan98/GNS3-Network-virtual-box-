@@ -24,8 +24,8 @@ network:
   ethernets:
     eth0:
       dhcp4: no
-      addresses: [192.168.72.150/24]
-      gateway4: 192.168.72.2
+      addresses: [10.10.10.10/24]
+      gateway4: 10.10.10.1
       nameservers:
           addresses: [8.8.8.8, 8.8.4.4]" >> 90_gns3vm_static_netcfg.yaml
 echo "Netowrk has been configured"
