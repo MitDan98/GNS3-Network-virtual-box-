@@ -6,7 +6,7 @@ sts = $?
 #Connect with root
 sudo su
 #
-#enter in folder netowrk interface (netplan)
+#enter in folder network interface (netplan)
 cd /etc/netplan
 if [ $sts -ne 0 ]; then
      echo " You don't have acces "
