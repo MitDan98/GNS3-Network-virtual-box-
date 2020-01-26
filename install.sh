@@ -15,7 +15,7 @@ fi
 #Clear default configuration
 clear >> 90_gns3vm_static_netcfg.yaml
 #
-#Enter default configuration
+#Enter new configuration
 echo "# Uncomment the following lines if you want to manually configure your network
 
 network:
