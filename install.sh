@@ -29,5 +29,5 @@ network:
       nameservers:
           addresses: [8.8.8.8, 8.8.4.4]" >> 90_gns3vm_static_netcfg.yaml
 echo "Network has been configured"
-echo "Your VM will be Reboot"
+echo "Your VM will be Restarted"
 reboot
