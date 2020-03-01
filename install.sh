@@ -16,7 +16,7 @@ fi
 clear >> 90_gns3vm_static_netcfg.yaml
 #
 #Enter new configuration
-echo "# Uncomment the following lines if you want to manually configure your network'
+echo "# Uncomment the following lines if you want to manually configure your network
 
 network:
   version: 2
